@@ -1,0 +1,15 @@
+body{
+    padding: 0 7.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alura-nav_left{
+    display: flex;
+    justify-content: space-around;
+
+}
