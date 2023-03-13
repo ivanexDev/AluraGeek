@@ -1,6 +1,6 @@
 .banner-container{
     padding: 0 10.5%;
-    background-image: url(/Image/banner-image.png);
+    background-image: url(../Image/banner-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
