@@ -1,0 +1,35 @@
+.banner-container{
+    padding: 0 10.5%;
+    background-image: url(/Image/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    min-height: 450px;
+}
+.banner-container h2{
+    font-size: 52px;
+    margin: 0;
+}
+.banner-container span{
+    font-size: 22px;
+    margin: 16px 0;
+}
+.boton-azul{
+    width: 129px;
+    height: 51px;
+    background-color: #2A7AE4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.boton-azul:hover{
+    background-color: rgb(76, 135, 227);
+}
