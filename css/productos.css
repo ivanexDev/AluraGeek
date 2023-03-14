@@ -75,3 +75,14 @@
 }
 
 }
+
+@media (width <= 360px) {
+    .productos-container{
+        padding: 0 16px;
+}
+.producto-card{
+    width: 158px ;
+    height: 249px;
+}
+
+}

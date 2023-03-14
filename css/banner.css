@@ -1,6 +1,8 @@
 .banner-container{
     padding: 0 10.5%;
-    background-image: url(../Image/banner-image.png);
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.063), rgba(0, 0, 0, 0.721)),
+url(../Image/banner-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -43,4 +45,25 @@
         background-position: 50%;
     }
     
+}
+
+@media (width <= 360px) {
+    .banner-container{
+        padding: 0 16px;
+        min-height: 192px;
+    }
+
+    .banner-container h2{
+        font-size: 22px;
+    }
+
+    .banner-container span{
+        font-size: 14px;
+        margin: 8px 0;
+    }
+    .boton-azul{
+        width: 118px;
+        height: 40px;
+        font-size: 14px;
+    }
 }

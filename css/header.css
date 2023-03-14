@@ -2,6 +2,7 @@
     padding: 0 10.5%;
     display: flex;
     align-items: center;
+    width: auto;
     justify-content: space-between;
 }
 .header-left{
@@ -69,7 +70,40 @@
     background-color: rgb(206, 223, 248);
 }
 
+.mobile-search{
+    display: none;
+}
+
 @media (width <= 768px) {
     .header-container{
         padding: 0 32px;
 }}
+
+@media (width <= 360px) {
+    .header-left{
+        width: auto;
+    }
+    .header-container{
+        padding: 0 16px;    
+        justify-content: space-between;
+}
+    .header-logo{
+        width: 100px;
+        height: 28px;
+    }
+    .header-buscador{
+        display: none;
+    }
+
+    .header-login{
+        width: 133px;
+        height: 40px;
+    }
+
+    .mobile-search{
+        display: flex;
+        background-color: white;
+        border: none;
+    }
+
+}
