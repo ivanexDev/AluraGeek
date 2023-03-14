@@ -33,3 +33,14 @@
 .boton-azul:hover{
     background-color: rgb(76, 135, 227);
 }
+
+
+@media (width <= 768px) {
+    .banner-container{
+        padding: 0 32px;
+    }
+    .banner-container{
+        background-position: 50%;
+    }
+    
+}

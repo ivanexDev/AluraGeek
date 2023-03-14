@@ -60,3 +60,18 @@
 }
 
     
+@media (width <= 768px) {
+    .productos-container{
+        padding: 0 32px;
+}
+
+.card-no-mobile{
+    display: none;
+}
+
+.producto-card{
+    width: 164px ;
+    height: 252px;
+}
+
+}

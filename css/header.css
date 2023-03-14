@@ -68,3 +68,8 @@
 .header-login:hover{
     background-color: rgb(206, 223, 248);
 }
+
+@media (width <= 768px) {
+    .header-container{
+        padding: 0 32px;
+}}
