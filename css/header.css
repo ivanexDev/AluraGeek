@@ -11,6 +11,11 @@
     align-items: center;
     height: 115px;
 }
+
+.header-left h1{
+    display: flex;
+    align-items: center;
+}
 .header-buscador{
     display: flex;
     width: 40%;
@@ -82,10 +87,15 @@
 @media (width <= 360px) {
     .header-left{
         width: auto;
+        height: auto;
+    }
+    .header-left h1{
+        margin: 0;
     }
     .header-container{
         padding: 0 16px;    
         justify-content: space-between;
+        height: 60px;
 }
     .header-logo{
         width: 100px;
